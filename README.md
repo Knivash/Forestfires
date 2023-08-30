@@ -48,3 +48,35 @@ This section highlights key insights from a research paper titled "[Cortez and M
 
 In summary, this study provides valuable insights into predicting burned areas in forest fires. By employing a range of data mining methods, a Gaussian SVM leveraging specific weather conditions emerges as the top performer in terms of MAD. The SVM's strength lies in its accurate prediction of smaller fires, contributing to a comprehensive understanding of forest fire dynamics.
 
+
+## Dataset Attributes Description
+
+The dataset used in the study "[Cortez and Morais, 2007]" for predicting burned forest area comprises several attributes that contribute to the predictive modeling process. Here's a breakdown of each attribute:
+
+1. **X - x-axis spatial coordinate:** Represents the x-axis location within the Montesinho park map. Values range from 1 to 9.
+
+2. **Y - y-axis spatial coordinate:** Represents the y-axis location within the Montesinho park map. Values range from 2 to 9.
+
+3. **month - month of the year:** Represents the month in text format, ranging from 'jan' to 'dec'.
+
+4. **day - day of the week:** Represents the day of the week in text format, ranging from 'mon' to 'sun'.
+
+5. **FFMC - Fine Fuel Moisture Code index:** A value from the FWI (Fire Weather Index) system, indicating the moisture content of fine fuels. Values range from 18.7 to 96.20.
+
+6. **DMC - Duff Moisture Code index:** A value from the FWI system, indicating the moisture content of decomposed organic material. Values range from 1.1 to 291.3.
+
+7. **DC - Drought Code index:** A value from the FWI system, indicating the moisture content of deep organic layers. Values range from 7.9 to 860.6.
+
+8. **ISI - Initial Spread Index:** A value from the FWI system, indicating the potential rate of fire spread. Values range from 0.0 to 56.10.
+
+9. **temp - temperature:** Represents the temperature in Celsius degrees. Values range from 2.2 to 33.30.
+
+10. **RH - relative humidity:** Represents the relative humidity in percentage (%). Values range from 15.0 to 100.
+
+11. **wind - wind speed:** Represents the wind speed in kilometres per hour (km/h). Values range from 0.40 to 9.40.
+
+12. **rain - outside rain:** Represents the amount of outside rain in millimetres per square meter (mm/m2). Values range from 0.0 to 6.4.
+
+13. **area - burned area of the forest:** Represents the burned area of the forest in hectares (ha). Values range from 0.00 to 1090.84. This attribute is mentioned to be highly skewed toward smaller values, so a logarithmic transformation might be applied when modeling.
+
+These attributes encompass spatial coordinates, temporal characteristics, meteorological indices, and the target variable (burned area). The "area" variable's logarithmic transformation is recommended due to its skewed distribution. This dataset serves as the foundation for predicting burned forest areas using advanced data mining techniques.
