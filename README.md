@@ -4,7 +4,7 @@
 
 The goal of this project is to predict the burned area of forest fires in the northeast region of Portugal using meteorological and other relevant data. This task has implications in various areas, and its outcomes can contribute to a multitude of sectors and initiatives. Below are some aspects of the business scope:
 
-1.  **### Environmental Monitoring and Early Warning Systems:** Developing accurate predictive models for burned area estimation can facilitate the creation of effective early warning systems. These systems provide timely alerts to authorities and communities, enabling them to prepare for potential fires and mitigate environmental impact and public safety concerns.
+1.  **Environmental Monitoring and Early Warning Systems:** Developing accurate predictive models for burned area estimation can facilitate the creation of effective early warning systems. These systems provide timely alerts to authorities and communities, enabling them to prepare for potential fires and mitigate environmental impact and public safety concerns.
 
 2. **Risk Assessment and Management:** Predictive models can assist in assessing fire risk in the northeast region of Portugal based on meteorological and related data. This information aids in allocating firefighting resources, equipment, and supplies to high-risk areas, enhancing the efficiency and effectiveness of fire management efforts.
 
